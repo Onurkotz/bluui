@@ -1,10 +1,14 @@
 import React from 'react'
 
-import { ExampleComponent } from 'bluui'
+import { Button } from 'bluui'
 import 'bluui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+    <Button text="Click"  onClick={ () => alert("Başarılı") } />
+    </>
+  )
 }
 
 export default App
