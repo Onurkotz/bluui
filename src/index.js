@@ -1,6 +1,8 @@
 import React from 'react'
-// import Styles from './styles.module.css'
+import style from './styles.module.css'
+
 
 export const Button = (props) => {
-  return <button {...props}> {props.text} </button>
+
+  return <button  {...props.type} {...props}> {props.text} </button>
 }
